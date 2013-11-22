@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.openetcs.datadictionary.model.edit;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Activator: org.openetcs.datadictionary.model.provider.DatadictionaryEditPlugin$Implementation
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.openetcs.datadictionary.model.provider;version="0.1.0"
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.8.0",
+ org.openetcs.datadictionary.model;bundle-version="0.1.0";visibility:=reexport,
+ org.eclipse.emf.edit;bundle-version="2.8.0";visibility:=reexport
